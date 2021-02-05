@@ -1,0 +1,12 @@
+version: '3.1'
+
+services: 
+  http-nodemailer:
+    image: waynegongcn/http-nodemailer
+    networks:
+      - default
+
+networks:
+  default:
+    external:
+      name: xxx
